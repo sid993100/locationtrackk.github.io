@@ -1,0 +1,30 @@
+ #pricing th, #pricing td{
+    border: 1px solid black;
+    padding: 8px;
+}
+#pricing{
+    font-size: 14px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#pricing tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#pricing tr:hover {
+    background-color: #ddd;
+}
+
+#pricing th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(79, 84, 97);
+    color: white;
+}
+
+.logo{
+    size: 80px;
+}
+    
